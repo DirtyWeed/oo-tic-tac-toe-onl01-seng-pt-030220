@@ -21,8 +21,8 @@ class TicTacToe
     @board
   end
   
-  def self.input_to_index(result)
-    result = result -= 1
+  def self.input_to_index[num]
+    num = index -= 1
     result
   end
   
