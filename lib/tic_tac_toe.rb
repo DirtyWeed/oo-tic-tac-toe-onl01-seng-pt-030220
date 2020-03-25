@@ -22,7 +22,7 @@ class TicTacToe
   end
   
   def self.input_to_index(num)
-    num = 
+    num = num -= 1 
   end
   
   def self.move
