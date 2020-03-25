@@ -27,8 +27,37 @@ class TicTacToe
   end
   
   def self.position_taken?
-end
+  end
 
-
+  def self.valid_move?
+  end
+  
+  def self.turn 
+  end
+  
+  def self.turn_count
+  end 
+  
+  def self.current_player
+  end 
+  
+  def self.won? 
+  end 
+  
+  def self.full?
+  end 
+  
+  def self.draw?
+  end 
+  
+  def self.over?
+  end 
+  
+  def self.winner
+  end 
+  
+  def self.play 
+  end 
+  
 
 end
