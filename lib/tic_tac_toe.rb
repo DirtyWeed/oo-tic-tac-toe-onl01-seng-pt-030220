@@ -3,7 +3,7 @@ class TicTacToe
     @board = board || Array.new(9, " ")
   end
   
-  def WIN_COMBINATIONS[num]
+  WIN_COMBINATIONS = 
  
  
   def current_player
