@@ -24,4 +24,11 @@ class TicTacToe
   end
   
   def self.move
+  end
+  
+  def self.position_taken?
+end
+
+
+
 end
