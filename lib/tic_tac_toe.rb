@@ -1,3 +1,5 @@
+require 'pry'
+
 class TicTacToe
   
   def initialize
@@ -64,3 +66,5 @@ class TicTacToe
   
 
 end
+
+binding.pry
