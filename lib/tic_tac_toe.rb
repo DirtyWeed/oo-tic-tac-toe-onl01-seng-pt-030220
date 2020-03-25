@@ -21,7 +21,8 @@ class TicTacToe
     @board
   end
   
-  def self.input_to_index(gets.chomp)
+  def self.input_to_index(num)
+    num = 
   end
   
   def self.move
