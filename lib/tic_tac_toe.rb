@@ -6,7 +6,7 @@ class TicTacToe
     @board = [" "," "," "," "," "," "," "," "," "]
   end
   
-  def WIN_COMBINATIONS
+  def WIN_COMBINATIONS[]
     self = [
       [0,1,2]
       [3,4,5]
