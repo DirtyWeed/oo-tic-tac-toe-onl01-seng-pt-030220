@@ -18,6 +18,7 @@ class TicTacToe
   end
   
   def self.display_board
+    @board
   end
   
   def self.input_to_index
