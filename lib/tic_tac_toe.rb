@@ -18,6 +18,10 @@ class TicTacToe
   end
   
   def self.display_board
-    
-
+  end
+  
+  def self.input_to_index
+  end
+  
+  def self.move
 end
