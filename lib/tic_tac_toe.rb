@@ -1,3 +1,5 @@
+
+
 class TicTacToe
   
   def initialize(board = nil)
@@ -15,7 +17,7 @@ class TicTacToe
     [2,4,6]
     ]
   
-  def self.input_to_index(x)
+  def self.input_to_index(x="")
     
  
   def current_player
