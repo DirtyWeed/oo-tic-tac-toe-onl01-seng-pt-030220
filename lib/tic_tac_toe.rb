@@ -5,7 +5,11 @@ class TicTacToe
   end
   
   def WIN_COMBINATIONS
-    
+    self = [
+      []
+      []
+      []
+      ]
   end
 
 end
