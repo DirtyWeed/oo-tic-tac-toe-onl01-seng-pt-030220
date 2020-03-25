@@ -1,6 +1,10 @@
 class TicTacToe
   
-  WIN_COMBINATIONS = [
+  def initialize(board = nil)
+    @board = board || Array.new(9, " ")
+  end
+  
+ WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
     [6,7,8],
@@ -11,11 +15,6 @@ class TicTacToe
     [2,4,6]
     ]
     
-  def initialize(board = nil)
-    @board = board || Array.new(9, " ")
-  end
-  
- 
  
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
