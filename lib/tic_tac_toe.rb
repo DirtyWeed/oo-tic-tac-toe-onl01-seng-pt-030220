@@ -26,7 +26,7 @@ class TicTacToe
     result
   end
   
-  def self.move
+  def self.move[]
   end
   
   def self.position_taken?
