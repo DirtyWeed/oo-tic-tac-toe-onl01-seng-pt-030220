@@ -14,7 +14,8 @@ class TicTacToe
     [0,4,8],
     [2,4,6]
     ]
-    
+  
+  def self.input_to_index
  
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
